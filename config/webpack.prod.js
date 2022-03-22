@@ -7,7 +7,7 @@ const prodConfig = {
   mode: 'production',
   output: {
     filename: '[name].[contenthash].js',
-    publicPath: '/marketing',
+    publicPath: '/marketing/',
     scriptType : "text/javascript"
   },
   plugins: [
